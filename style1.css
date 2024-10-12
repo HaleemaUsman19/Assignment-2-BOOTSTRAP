@@ -134,6 +134,7 @@ body{
 /* OVERLAPPING DIV */
 
 .login-div{
+  position: absolute;
   top:40px;
   left: 138px;
   height:280px;
@@ -142,6 +143,7 @@ body{
   padding:15px 35px 10px 37px ; 
   display: flex;
   flex-direction: column;
+  background-color: white;
 }
 
 .login-heading{
